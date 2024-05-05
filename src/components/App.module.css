@@ -1,0 +1,15 @@
+/* .gallery {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
+}
